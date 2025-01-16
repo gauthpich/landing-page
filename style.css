@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Header style */
@@ -128,15 +128,28 @@ button:hover {
 /* Quote section style */
 
 .inspiring-quote {
-
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
 }
 
 .quote {
-
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: start;
+    margin: 0;
+    padding: 0;
 }
 
 .author {
-
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 /* Call-to-action section style */
